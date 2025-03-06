@@ -202,6 +202,7 @@ function App() {
 						download="cv-PDF-document"
 						target="_blank"
 						rel="noopener noreferrer"
+						id='download-cv'
 					>
 						<DownloadButton >
 							Download CV

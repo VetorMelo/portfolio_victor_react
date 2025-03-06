@@ -278,6 +278,7 @@
 .scroll-icon {
     position: absolute;
     bottom: 20px;
+    
 }
 
 .scroll-down {
@@ -291,7 +292,7 @@
     border: calc(var(--sizeX) / 10) solid var(--color);
     border-radius: 50px;
     box-sizing: border-box;
-    margin-bottom: 16px;
+    margin-bottom: -40px;
 }
 
 .scroll-down::before {

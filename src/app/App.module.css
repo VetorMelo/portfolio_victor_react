@@ -243,6 +243,15 @@
     text-align: center;
 }
 
+
+
+.profile-pic {
+    width: 190px;
+    height: 190px;
+    border-radius: 50% 30%;
+    margin-right: 20px;
+}
+
 .home-content>h1 {
     margin: 0;
     padding: 0;
@@ -373,6 +382,11 @@
 
     .contact-nav {
         bottom: 20px;
+    }
+
+    .profile-pic {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }
 

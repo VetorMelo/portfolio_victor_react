@@ -7,6 +7,7 @@ import { SiTypescript, SiRecoil, SiReactquery, SiPostgresql, SiDjango, SiScala }
 import { TbBrandCpp } from "react-icons/tb";
 import { BsPuzzle } from "react-icons/bs";
 import { RiSendPlaneFill } from "react-icons/ri";
+import minhaFoto from '../assets/images/minhaFoto.jpg'; // Importe a imagem
 
 // import components
 import DownloadButton from '../common/components/DownloadButton/DownloadButton';
@@ -193,6 +194,7 @@ function App() {
 			{/* Home */}
 			<div id='Home' className={style.home}>
 				<div className={style["home-content"]}>
+				<img src={minhaFoto} alt="Victor Melo" className={style["profile-pic"]} />
 					<h1>HEY, I'M Victor Melo</h1>
 					<p>Sou desenvolvedor com foco em Backend e DBA, trabalhando principalmente no gerenciamento de dados e no desenvolvimento de soluções eficientes. Embora minha especialidade seja em Backend, também tenho experiência em Frontend, o que me permite colaborar na criação de interfaces e garantir uma boa integração entre o backend e o frontend. Estou sempre buscando novos desafios para aplicar e expandir meus conhecimentos.</p>
 					<a

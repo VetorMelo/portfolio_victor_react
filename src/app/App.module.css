@@ -292,7 +292,7 @@
     border: calc(var(--sizeX) / 10) solid var(--color);
     border-radius: 50px;
     box-sizing: border-box;
-    margin-bottom: -40px;
+    margin-bottom: 90px;
 }
 
 .scroll-down::before {
@@ -383,6 +383,7 @@
 
     .contact-nav {
         bottom: 20px;
+        
     }
 
     .profile-pic {

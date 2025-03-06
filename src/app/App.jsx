@@ -196,7 +196,7 @@ function App() {
 				<div className={style["home-content"]}>
 				<img src={minhaFoto} alt="Victor Melo" className={style["profile-pic"]} />
 					<h1>HEY, I'M Victor Melo</h1>
-					<p>Sou desenvolvedor com foco em Backend e DBA, trabalhando principalmente no gerenciamento de dados e no desenvolvimento de soluções eficientes. Embora minha especialidade seja em Backend, também tenho experiência em Frontend, o que me permite colaborar na criação de interfaces e garantir uma boa integração entre o backend e o frontend. Estou sempre buscando novos desafios para aplicar e expandir meus conhecimentos.</p>
+					<p>Sou desenvolvedor com foco em Backend e DBA, trabalhando principalmente no gerenciamento de dados e no desenvolvimento de soluções eficientes. Embora minha especialidade seja em Backend, também tenho experiência em Frontend, o que me permite colaborar na criação de interfaces e garantir uma boa integração entre o backend e o frontend. Estou sempre buscando novos desafios para aplicar e expandir meus conhecimentos.</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 					<a
 						href={cv}
 						download="cv-PDF-document"
@@ -216,6 +216,7 @@ function App() {
 						</div>
 					</div>
 				</div>
+
 				<div className={style["contact-nav"]}>
 					<a className={style.github} target="_blank" href='https://github.com/VetorMelo' >
 						<AiFillGithub size="30px" color='black' />

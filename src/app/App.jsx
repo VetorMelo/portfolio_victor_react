@@ -99,7 +99,7 @@ const skills = [
 ];
 const projects = [
 	{
-		name: 'Projeto Estacionamento Central Park',
+		name: 'Projeto Estacionamento',
 		link: 'https://vetormelo.github.io/estacionamento_project_ts/',
 		github: 'https://github.com/VetorMelo/estacionamento_project_ts',
 		description: 'Este código gerencia uma lista de veículos em uma garagem, permitindo adicionar novos veículos, calcular o valor a ser pago com base no tempo estacionado e remover veículos da garagem. Além disso, utilizei o localStorage para a persistência de dados e manipulação de eventos DOM para a interação com o usuário.',
@@ -196,7 +196,7 @@ function App() {
 				<div className={style["home-content"]}>
 				<img src={minhaFoto} alt="Victor Melo" className={style["profile-pic"]} />
 				<h1>HEY, I'M<br className={style["mobile-break"]} />Victor Melo</h1>
-					<p>Sou desenvolvedor com foco em Backend e DBA, trabalhando principalmente no gerenciamento de dados e no desenvolvimento de soluções eficientes. Embora minha especialidade seja em Backend, também tenho experiência em Frontend, o que me permite colaborar na criação de interfaces e garantir uma boa integração entre o backend e o frontend. Estou sempre buscando novos desafios para aplicar e expandir meus conhecimentos.</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+					<p>Sou desenvolvedor com foco em Backend e DBA, especializado em gerenciamento de dados e criação de soluções eficientes. Embora minha expertise esteja no Backend, também tenho experiência em Frontend, o que me permite colaborar na construção de interfaces e garantir uma integração harmoniosa entre o Backend e o Frontend. Estou sempre em busca de novos desafios para aplicar e expandir meus conhecimentos.</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 					<a
 						href={cv}
 						download="cv-PDF-document"
@@ -243,13 +243,13 @@ function App() {
 						<div className={style["about-info"]}>
 							<h3>Vamos lá!</h3>
 							<p>
-								Sou um <span>desenvolvedor Backend</span> criando o Frontend e Backend de Sites e Aplicações Web que contribuem para o sucesso do produto como um todo. Confira alguns dos meus trabalhos na seção de <span>Projetos</span>. <br /> <br />
-								Também gosto de compartilhar conteúdo relacionado ao que aprendi ao longo dos anos em <span>Desenvolvimento Web</span> para que isso possa ajudar outras pessoas da comunidade de desenvolvedores. Fique à vontade para se conectar ou me seguir no meu <a href="https://github.com/VetorMelo" target="_blank">Github</a> onde eu publico conteúdo útil relacionado a Desenvolvimento Web e Programação. <br /> <br />
+								Sou<span>desenvolvedor Backend</span>responsável pela criação do Frontend e Backend de Sites e Aplicações Web, sempre com foco em contribuir para o sucesso global do produto. Confira alguns dos meus trabalhos na seção de<span>Projetos</span>. <br /> <br />
+								Também compartilho conteúdo sobre o que aprendi ao longo dos anos em <span>Desenvolvimento Web</span> com o objetivo de ajudar a comunidade de desenvolvedores. Sinta-se à vontade para se conectar ou me seguir no meu  <a href="https://github.com/VetorMelo" target="_blank">Github</a> onde eu publico conteúdo útil relacionado a Desenvolvimento Web e Programação. <br /> <br />
 								Estou aberto a<span>oportunidades de emprego</span> oportunidades onde eu possa contribuir, aprender e crescer. Se você tiver uma boa oportunidade que corresponda às minhas habilidades e experiência, não hesite em <span>entrar em contato</span> comigo.
 							</p>
 						</div>
 						<div className={style["my-skill"]}>
-							<h3>My Skills</h3>
+							<h3>Skills</h3>
 							<div className={style.skills}>
 								{
 									skills.map((skill, index) => {

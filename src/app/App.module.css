@@ -250,7 +250,7 @@
     height: 130px;
     border-radius: 50% 30%;
     margin-right: 20px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
 
 .home-content>h1 {
@@ -375,7 +375,7 @@
 
 @media (max-width: 768px) {
     .home-content>h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .home-content>p {
@@ -390,6 +390,10 @@
     .profile-pic {
         margin-right: 0;
         margin-bottom: 10px;
+    }
+
+    .mobile-break {
+        display: block;
     }
 }
 

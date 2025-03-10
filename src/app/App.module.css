@@ -235,7 +235,7 @@
 
 .home-content {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 900px;
@@ -246,8 +246,8 @@
 
 
 .profile-pic {
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 105px;
     border-radius: 50% 30%;
     margin-right: 20px;
     margin-top: 130px;
@@ -454,6 +454,7 @@
 /* ************************************** About ************************************** */
 
 .about {
+    margin-top: 10px;
     min-height: 100vh;
     background-color: var(--back-ground-color);
     padding-top: 150px;

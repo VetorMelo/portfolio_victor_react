@@ -282,6 +282,7 @@
     
 }
 
+
 .scroll-down {
     --color: black;
     --sizeX: 30px;
@@ -332,6 +333,7 @@
         height: 3px;
         opacity: 0;
     }
+    
 }
 
 .chevrons {

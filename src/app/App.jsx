@@ -196,7 +196,7 @@ function App() {
 				<div className={style["home-content"]}>
 				<img src={minhaFoto} alt="Victor Melo" className={style["profile-pic"]} />
 				<h1>HEY, I'M<br className={style["mobile-break"]} />Victor Melo</h1>
-					<p>Sou desenvolvedor com foco em Backend e DBA, especializado em gerenciamento de dados e criação de soluções eficientes. Embora minha expertise esteja no Backend, também tenho experiência em Frontend, o que me permite colaborar na construção de interfaces e garantir uma integração harmoniosa entre o Backend e o Frontend. Estou sempre em busca de novos desafios para aplicar e expandir meus conhecimentos.</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+					<p>Sou desenvolvedor com foco em Backend e DBA, especializado em gerenciamento de dados e criação de soluções eficientes. Embora minha expertise esteja no Backend, também tenho experiência em Frontend, o que me permite colaborar na construção de interfaces e garantir uma integração harmoniosa entre o Backend e o Frontend. Estou sempre em busca de novos desafios para aplicar e expandir meus conhecimentos.</p>
 					<a
 						href={cv}
 						download="cv-PDF-document"

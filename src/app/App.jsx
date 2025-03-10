@@ -241,6 +241,7 @@ function App() {
 					<p>Aqui você encontrará mais informações sobre mim, o que faço e minhas habilidades atuais, principalmente em termos de programação e tecnologia.</p>
 					<div className={style["about-content"]}>
 						<div className={style["about-info"]}>
+						<img src={minhaFoto} alt="Victor Melo" className={style["profile-pic"]} />
 							<h3>Vamos lá!</h3>
 							<p>
 								Sou<span>desenvolvedor Backend</span>responsável pela criação do Frontend e Backend de Sites e Aplicações Web, sempre com foco em contribuir para o sucesso global do produto. Confira alguns dos meus trabalhos na seção de<span>Projetos</span>. <br /> <br />

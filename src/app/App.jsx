@@ -217,7 +217,7 @@ function App() {
 				<div className={style["home-content"]}>
 				<h1>Olá, meu nome é<br className={style["mobile-break"]} />Victor Melo</h1>
 					<p>Atualmente, sou desenvolvedor júnior em uma empresa especializada em defesa e engenharia aeronáutica. Tenho experiência prática em Java, Python, SQL, PostgreSQL, Power BI, Power Apps e SharePoint. Além do trabalho técnico, também participo de reuniões estratégicas, contribuindo com a governança de software e a gestão de projetos, em colaboração com o departamento de integração de projetos.</p>
-					<p>Embora meu foco principal seja o desenvolvimento backend, possuo experiência em frontend utilizando React, JavaScript e TypeScript. Estou em constante busca por aprimoramento técnico e novos aprendizados, pois acredito que, quanto mais se aprende, maior é a consciência do quanto ainda há por descobrir.</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+					<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 					<a
 						href={cv}
 						download="cv-PDF-document"

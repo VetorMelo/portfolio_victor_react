@@ -120,7 +120,7 @@ const projects = [
 		name: `Projeto Sistema Bancário - Java`,
 		link: 'https://github.com/VetorMelo/sistema_bancario_java',
 		github: 'https://github.com/VetorMelo/sistema_bancario_java',
-		description: "Quem diria que uma reclamação de cliente poderia inspirar um projeto? 😅 Após uma situação onde um cliente teve um pequeno desentendimento, percebi que era hora de inovar nos meus projetos pessoais. E assim nasceu a nova página web para contestação de compras e empréstimos!",
+		description: "Este projeto simula um sistema bancário simples em Java, permitindo ao usuário abrir uma conta com um valor inicial e interagir com serviços como saque, depósito, pagamento de boletos e consulta de saldo. O sistema também implementa um cheque especial com limite calculado com base no valor inicial. Quando o usuário entra no cheque especial, há cobrança de taxa de 20% ao repor o valor. O menu interativo oferece uma navegação fácil para acessar as funcionalidades da conta.",
 		image: Ataa
 	},
 	{

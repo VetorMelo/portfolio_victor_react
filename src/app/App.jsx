@@ -393,7 +393,7 @@ function App() {
 					<div className={style["footer-info"]}>
 						<div>
 							<h3>Victor Melo</h3>
-							<p>Desenvolvedor com foco em Backend, mas também com habilidades em Frontend e Aplicações que contribuem para o sucesso do produto como um todo.</p>
+							<p>"Aprender algo novo todos os dias é o que me motiva!"</p>
 						</div>
 						<div className={style.social}>
 							<h3>Social</h3>

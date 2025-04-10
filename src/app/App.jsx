@@ -7,6 +7,7 @@ import { SiTypescript, SiRecoil, SiReactquery, SiPostgresql, SiDjango, SiScala }
 import { TbBrandCpp } from "react-icons/tb";
 import { BsPuzzle } from "react-icons/bs";
 import { RiSendPlaneFill } from "react-icons/ri";
+import { SiSpring, SiEclipseide } from "react-icons/si";
 import minhaFoto from '../assets/images/minhaFoto.jpg'; // Importe a imagem
 
 // import components
@@ -15,6 +16,7 @@ import IconButton from '../common/components/IconButton/IconButton';
 import InputField from '../common/components/InputField/InputField';
 import TextAreaField from '../common/components/TextAreaField/TextAreaField';
 import SubmitButton from '../common/components/SubmitButton/SubmitButton';
+import { FaLinux } from "react-icons/fa";
 import Loader from '../common/components/Loader/Loader';
 import cv from '../assets/files/cv.pdf';
 
@@ -32,24 +34,29 @@ import clsx from 'clsx';
 
 const skills = [
     {
-        name: 'HTML 5',
-        icon: <FaHtml5 size="25px" color="white" />,
-        cssName: "html"
+        name: 'Java',
+        icon: <BiLogoJava size="25px" color="white" />,
+        cssName: "java"
     },
     {
-        name: 'CSS 3',
-        icon: <FaCss3Alt size="25px" color="white" />,
-        cssName: "css"
+        name: 'Spring',
+        icon: <SiSpring size="25px" color="white" />,
+        cssName: "spring"
     },
     {
-        name: 'JavaScript',
-        icon: <BiLogoJavascript size="25px" color="white" />,
-        cssName: "javascript"
+        name: 'Eclipse',
+        icon: <SiEclipseide size="25px" color="white" />,
+        cssName: "eclipse"
     },
-    {
-        name: "TypeScript",
-        icon: <SiTypescript size="25px" color="white" />,
-        cssName: "typescript"
+	{
+        name: 'Linux',
+        icon: <FaLinux size="25px" color="white" />,
+        cssName: "linux"
+    },
+	{
+        name: 'Git',
+        icon: <FaGitAlt size="25px" color="white" />,
+        cssName: "git"
     },
     {
         name: 'React',
@@ -60,16 +67,6 @@ const skills = [
         name: 'Responsive Design',
         icon: <FaMobileAlt size="25px" color="white" />,
         cssName: "responsive"
-    },
-    {
-        name: 'Git',
-        icon: <FaGitAlt size="25px" color="white" />,
-        cssName: "git"
-    },
-    {
-        name: 'Java',
-        icon: <BiLogoJava size="25px" color="white" />,
-        cssName: "java"
     },
     {
         name: 'Python',
@@ -95,22 +92,43 @@ const skills = [
         name: 'Django',
         icon: <SiDjango size="25px" color="white" />,
         cssName: "django"
-    }
+    },
+	{
+        name: 'HTML 5',
+        icon: <FaHtml5 size="25px" color="white" />,
+        cssName: "html"
+    },
+    {
+        name: 'CSS 3',
+        icon: <FaCss3Alt size="25px" color="white" />,
+        cssName: "css"
+    },
+    {
+        name: 'JavaScript',
+        icon: <BiLogoJavascript size="25px" color="white" />,
+        cssName: "javascript"
+    },
+    {
+        name: "TypeScript",
+        icon: <SiTypescript size="25px" color="white" />,
+        cssName: "typescript"
+    },
 ];
+
 const projects = [
+	{
+		name: `Projeto Sistema Bancário - Java`,
+		link: 'https://github.com/VetorMelo/sistema_bancario_java',
+		github: 'https://github.com/VetorMelo/sistema_bancario_java',
+		description: "Quem diria que uma reclamação de cliente poderia inspirar um projeto? 😅 Após uma situação onde um cliente teve um pequeno desentendimento, percebi que era hora de inovar nos meus projetos pessoais. E assim nasceu a nova página web para contestação de compras e empréstimos!",
+		image: Ataa
+	},
 	{
 		name: 'Projeto Estacionamento',
 		link: 'https://vetormelo.github.io/estacionamento_project_ts/',
 		github: 'https://github.com/VetorMelo/estacionamento_project_ts',
 		description: 'Este código gerencia uma lista de veículos em uma garagem, permitindo adicionar novos veículos, calcular o valor a ser pago com base no tempo estacionado e remover veículos da garagem. Além disso, utilizei o localStorage para a persistência de dados e manipulação de eventos DOM para a interação com o usuário.',
 		image: GlobalShare
-	},
-	{
-		name: `Projeto Conteste Aqui Web`,
-		link: 'https://vetormelo.github.io/conteste_aqui_web/',
-		github: 'https://github.com/VetorMelo/conteste_aqui_web',
-		description: "Quem diria que uma reclamação de cliente poderia inspirar um projeto? 😅 Após uma situação onde um cliente teve um pequeno desentendimento, percebi que era hora de inovar nos meus projetos pessoais. E assim nasceu a nova página web para contestação de compras e empréstimos!",
-		image: Ataa
 	},
 	{
 		name: 'Projeto Pokémon',
@@ -169,6 +187,7 @@ function App() {
 
 				<ul>
 					<li><a href="#Home">Home</a></li>
+					<li><a href="https://github.com/VetorMelo">GitHub</a></li>
 					<li><a href="#About">Sobre</a></li>
 					<li><a href="#Projects">Projetos</a></li>
 					<li><a href="#Contact">Contato</a></li>
@@ -186,6 +205,7 @@ function App() {
 				menu === true &&
 				<ul className={style.menu}>
 					<li><a href="#Home">Home</a></li>
+					<li><a href="https://github.com/VetorMelo">GitHub</a></li>
 					<li><a href="#About">Sobre</a></li>
 					<li><a href="#Projects">Projetos</a></li>
 					<li><a href="#Contact">Contato</a></li>
@@ -195,8 +215,9 @@ function App() {
 			{/* Home */}
 			<div id='Home' className={style.home}>
 				<div className={style["home-content"]}>
-				<h1>Olá, eu sou<br className={style["mobile-break"]} />Victor Melo</h1>
-					<p>Sou desenvolvedor com foco em Backend e DBA, especializado em gerenciamento de dados e criação de soluções eficientes. Embora minha expertise esteja no Backend, também tenho experiência em Frontend, o que me permite colaborar na construção de interfaces e garantir uma integração harmoniosa entre o Backend e o Frontend. Estou sempre em busca de novos desafios para aplicar e expandir meus conhecimentos.</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+				<h1>Olá, meu nome é<br className={style["mobile-break"]} />Victor Melo</h1>
+					<p>Atualmente, sou desenvolvedor júnior em uma empresa especializada em defesa e engenharia aeronáutica. Tenho experiência prática em Java, Python, SQL, PostgreSQL, Power BI, Power Apps e SharePoint. Além do trabalho técnico, também participo de reuniões estratégicas, contribuindo com a governança de software e a gestão de projetos, em colaboração com o departamento de integração de projetos.</p>
+					<p>Embora meu foco principal seja o desenvolvimento backend, possuo experiência em frontend utilizando React, JavaScript e TypeScript. Estou em constante busca por aprimoramento técnico e novos aprendizados, pois acredito que, quanto mais se aprende, maior é a consciência do quanto ainda há por descobrir.</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 					<a
 						href={cv}
 						download="cv-PDF-document"
@@ -243,9 +264,9 @@ function App() {
 						<div className={style["about-info"]}>
 							<h3>Vamos lá!</h3>
 							<p>
-								Sou<span>desenvolvedor Backend</span>responsável pela criação do Frontend e Backend de Sites e Aplicações Web, sempre com foco em contribuir para o sucesso global do produto. Confira alguns dos meus trabalhos na seção de<span>Projetos</span>. <br /> <br />
+								Sou<span> desenvolvedor Backend </span>responsável pela criação do Frontend e Backend de Sites e Aplicações Web, sempre com foco em contribuir para o sucesso global do produto. Confira alguns dos meus trabalhos na seção de <span>Projetos</span>. <br /> <br />
 								Também compartilho conteúdo sobre o que aprendi ao longo dos anos em <span>Desenvolvimento Web</span> com o objetivo de ajudar a comunidade de desenvolvedores. Sinta-se à vontade para se conectar ou me seguir no meu  <a href="https://github.com/VetorMelo" target="_blank">Github</a> onde eu publico conteúdo útil relacionado a Desenvolvimento Web e Programação. <br /> <br />
-								Estou aberto a<span>oportunidades de emprego</span> oportunidades onde eu possa contribuir, aprender e crescer. Se você tiver uma boa oportunidade que corresponda às minhas habilidades e experiência, não hesite em <span>entrar em contato</span> comigo.
+								Estou aberto a <span>oportunidades de emprego</span> oportunidades onde eu possa contribuir, aprender e crescer. Se você tiver uma boa oportunidade que corresponda às minhas habilidades e experiência, não hesite em <span>entrar em contato</span> comigo.
 							</p>
 						</div>
 						<div className={style["my-skill"]}>
@@ -372,7 +393,7 @@ function App() {
 					<div className={style["footer-info"]}>
 						<div>
 							<h3>Victor Melo</h3>
-							<p>Sou um desenvolvedor web focado em Backend, mas também com habilidades em Frontend e Aplicações Web que contribuem para o sucesso do produto como um todo.</p>
+							<p>Desenvolvedor com foco em Backend, mas também com habilidades em Frontend e Aplicações que contribuem para o sucesso do produto como um todo.</p>
 						</div>
 						<div className={style.social}>
 							<h3>Social</h3>

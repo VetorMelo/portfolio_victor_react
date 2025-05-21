@@ -259,7 +259,7 @@ function App() {
 			<div id='About' className={style.about}>
 				<div className={style.container}>
 					<h2 className={style.title}>Sobre Mim</h2>
-					<p>Aqui você encontrará mais informações sobre mim, o que faço e minhas habilidades atuais, principalmente em termos de programação e tecnologia.</p>
+					<p>"Aprender algo novo todos os dias é o que me motiva!"</p>
 					<div className={style["about-content"]}>
 						<div className={style["about-info"]}>
 							<h3>Vamos lá!</h3>

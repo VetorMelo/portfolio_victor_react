@@ -216,7 +216,7 @@ function App() {
 			<div id='Home' className={style.home}>
 				<div className={style["home-content"]}>
 				<h1>Olá, meu nome é<br className={style["mobile-break"]} />Victor Melo</h1>
-					<p>Atualmente, sou desenvolvedor júnior em uma empresa especializada em defesa e engenharia aeronáutica. Tenho experiência prática em Java, Python, SQL, PostgreSQL, Power BI, Power Apps e SharePoint. Além do trabalho técnico, também participo de reuniões estratégicas, contribuindo com a governança de software e a gestão de projetos, em colaboração com o departamento de integração de projetos.</p>
+					<p>Atualmente, sou desenvolvedor júnior em uma empresa especializada em Defesa e Engenharia Aeronáutica. Tenho experiência prática em Power BI (ETL e DAX), Python, SQL, PostgreSQL, Power Apps, SharePoint, Java e Spring. Além do trabalho técnico, também participo de reuniões estratégicas, contribuindo com a Governança de Software e a Gestão de Projetos, em colaboração com o Departamento Integrador de Projetos.</p>
 					<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 					<a
 						href={cv}
@@ -264,8 +264,8 @@ function App() {
 						<div className={style["about-info"]}>
 							<h3>Vamos lá!</h3>
 							<p>
-								Sou<span> desenvolvedor Backend </span>responsável pela criação do Frontend e Backend de Sites e Aplicações Web, sempre com foco em contribuir para o sucesso global do produto. Confira alguns dos meus trabalhos na seção de <span>Projetos</span>. <br /> <br />
-								Também compartilho conteúdo sobre o que aprendi ao longo dos anos em <span>Desenvolvimento Web</span> com o objetivo de ajudar a comunidade de desenvolvedores. Sinta-se à vontade para se conectar ou me seguir no meu  <a href="https://github.com/VetorMelo" target="_blank">Github</a> onde eu publico conteúdo útil relacionado a Desenvolvimento Web e Programação. <br /> <br />
+								Sou<span> desenvolvedor de Software </span>responsável pela manutenção de Apps, automação de processos, criação de relatórios em Dashboards e KPIs, sempre com foco em contribuir para o sucesso global do produto. Confira alguns dos meus trabalhos na seção de <span>Projetos</span>. <br /> <br />
+								Também compartilho conteúdo sobre o que aprendi ao longo dos anos em <span>Desenvolvimento de Software, Análise de Ddos e tecnologias</span> com o objetivo de ajudar a comunidade Tech e Dados. Sinta-se à vontade para se conectar ou me seguir no meu  <a href="https://github.com/VetorMelo" target="_blank">Github</a> onde eu publico conteúdo. <br /> <br />
 								Estou aberto a <span>oportunidades de emprego</span> oportunidades onde eu possa contribuir, aprender e crescer. Se você tiver uma boa oportunidade que corresponda às minhas habilidades e experiência, não hesite em <span>entrar em contato</span> comigo.
 							</p>
 						</div>
